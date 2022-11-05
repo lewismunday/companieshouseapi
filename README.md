@@ -4,7 +4,7 @@ A python wrapper around the [Companies House UK API](https://developer.companies
 ## Example usage
 
 ```python
-from companieshouse import companieshouse
+from companieshouseapi.companieshouse import companieshouse
 
 ch = companieshouse.init('YOUR_API_KEY')
 ch.get_company_overview('COMPANY_NUMBER')
@@ -27,7 +27,7 @@ https://lewismunday.github.io/companieshouse/ - in progress
 To install the companieshouseapi package, clone the repo by running:
 
 ```bash
-git clone git://github.com/lewismunday/companieshouseapi.git
+git clone https://github.com/lewismunday/companieshouseapi.git
 ```
 
 Then install the package by running:
